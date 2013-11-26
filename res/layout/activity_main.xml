@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/videoTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.98"
+        android:gravity="center"
+        android:text="Titolo Video"
+        android:textSize="25dp" />
+
+      <VideoView
+            android:id="@+id/videoPlayer"
+            android:layout_width="wrap_content"
+            android:layout_height="220dp"
+            android:layout_weight="3" />
+
+        <Button
+        android:id="@+id/apriFile"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open"         />
+    
+</LinearLayout>
